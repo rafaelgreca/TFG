@@ -1,0 +1,9 @@
+modelo,pré_processamento,balanceamento,score_validação,analytics_vidhya
+rand,False,False,0.9379,0.42348
+rand,True,False,0.9420,0.56660
+rand,False,True,0.9864,0.66666
+rand,True,True,0.9763,0.69270
+non_static,False,False,0.9374,0.42706
+non_static,True,False,0.9278,0.37719
+non_static,False,True,0.9820,0.64817
+non_static,True,True,0.9761,0.68831
