@@ -90,7 +90,7 @@ original | non_static | False | True | 0.67894
 original | non_static | True | True | 0.66666
 modificado | rand | False | False | 0.64714
 modificado | rand | True | False | 0.62857
-modificado | rand | False | True | 0.0.67447
+modificado | rand | False | True | 0.67447
 modificado | rand | True | True | 0.69146
 modificado | non_static | False | False | 0.67942
 modificado | non_static | True | False | 0.59926
