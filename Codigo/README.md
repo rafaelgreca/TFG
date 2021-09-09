@@ -10,9 +10,9 @@
     - [X] Realizar testes usando a arquitetura original
     - [X] Realizar testes usando a arquitetura modificada
 - [X] Escolher o melhor modelo (textcnn2d non-static com préprocessamento e balanceamento dos dados)
-- [ ] Variar parâmetros do melhor modelo
+- [X] Variar parâmetros do melhor modelo
 
 ### Monografia
 
-- [ ] Atualizar monografia
-- [ ] Pensar em como escrever sobre a parte de testes
+- [X] Atualizar monografia
+- [X] Pensar em como escrever sobre a parte de testes

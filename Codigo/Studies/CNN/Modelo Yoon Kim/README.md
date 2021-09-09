@@ -76,44 +76,30 @@ Versão original:
 
 ## Resultados Modelos
 
+As arquiteturas originais foram desconsideradas por motivos de performance.
+
 ### TextCNN1D
 
 Arquitetura | Model | Preprocessing | Augmentation | F1 Score
 --- | --- | --- | --- | ---
-original | rand | False | False | 0
-original | rand | True | False | 0
-**original** | **rand** | **False** | **True** | **0.73452**
-original | rand | True | True | 0.70514
-original | non_static | False | False | 0
-original | non_static | True | False | 0
-original | non_static | False | True | 0.67894
-original | non_static | True | True | 0.66666
-modificado | rand | False | False | 0.64714
-modificado | rand | True | False | 0.62857
-modificado | rand | False | True | 0.67447
-modificado | rand | True | True | 0.69146
-modificado | non_static | False | False | 0.67942
-modificado | non_static | True | False | 0.59926
-**modificado** | **non_static** | **False** | **True** | **0.71601**
-modificado | non_static | True | True | 0.69170
+modificado | rand | False | False | 0.65573
+modificado | rand | True | False | 0.58691
+modificado | rand | False | True | 0.70122
+**modificado** | **rand** | **True** | **True** | **0.70308**
+modificado | non_static | False | False | 0.66993
+modificado | non_static | True | False | 0.62118
+modificado | non_static | False | True | 0.6838
+modificado | non_static | True | True | 0.69958
 
 ### TextCNN2D
 
 Arquitetura | Model | Preprocessing | Augmentation | F1 Score
 --- | --- | --- | --- | ---
-original | rand | False | False | 0.44508
-original | rand | True | False | 0.41185
-original | rand | False | True | 0.68578
-original | rand | True | True | 0.73655
-original | non_static | False | False | 0.31027
-original | non_static | True | False | 0.40344
-original | non_static | False | True | 0.73668
-**original** | **non_static** | **True** | **True** | **0.74261**
-modificado | rand | False | False | 0.65610
-modificado | rand | True | False | 0.61355
-**modificado** | **rand** | **False** | **True** | **0.71727**
-modificado | rand | True | True | 0.69620
-modificado | non_static | False | False | 0.64297
-modificado | non_static | True | False | 0.65798
-modificado | non_static | False | True | 0.67025
-modificado | non_static | True | True | 0.70914
+modificado | rand | False | False | 0.64401
+modificado | rand | True | False | 0.54510
+modificado | rand | False | True | 0.70463
+**modificado** | **rand** | **True** | **True** | **0.72103**
+modificado | non_static | False | False | 0.65279
+modificado | non_static | True | False | 0.53021
+modificado | non_static | False | True | 0.69019
+modificado | non_static | True | True | 0.69824
