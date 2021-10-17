@@ -2,17 +2,13 @@
 
 ### Modelo
 
-- [X] Arrumar modelos que estão com zero de acurácia (TextCNN 2D rand e non_static usando só pré-processamento)
-- [X] Realizar os testes com o TextCNN 1D
-    - [X] Realizar testes usando a arquitetura original
-    - [X] Realizar testes usando a arquitetura modificada
-- [X] Realizar os testes com o TextCNN 2D
-    - [X] Realizar testes usando a arquitetura original
-    - [X] Realizar testes usando a arquitetura modificada
-- [X] Escolher o melhor modelo (textcnn2d non-static com préprocessamento e balanceamento dos dados)
-- [X] Variar parâmetros do melhor modelo
+- [ ] Variar os hiperparâmetros da LSTM
+- [ ] Corrigir os testes de variação de hiperparâmetros da CNN
+- [ ] Arrumar o problema de não conseguir alterar a quantidade de unidades da LSTM no código de variação da LSTM
 
 ### Monografia
 
-- [X] Atualizar monografia
-- [X] Pensar em como escrever sobre a parte de testes
+- [ ] Atualizar a seção de testes com a CNN
+- [ ] Escrever sobre os testes com a LSTM
+- [ ] Escrever a conclusão + abstract + complementar a introdução
+- [ ] Revisar a monografia e os estudos
